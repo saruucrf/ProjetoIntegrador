@@ -1,14 +1,18 @@
 # ProjetoIntegrador
-Projeto Integrador do curso de Desenvolvimento Front-End.
+Projeto Integrador – Curso de Desenvolvimento Front-End
 
-Açai do Ed - Samuel Santos e Lucas Melo
+Açaí do Ed
+Autores: Samuel Santos e Lucas Melo
 
-Foi escolhido o estabelecimento Açaí do Ed, presente na QNL 5/7, para criação de um site para seu negócio.
-O foco do site é atingir os clientes da Açaiteria, visando torna-lo um ambiente onde eles ficam atualizados do que acontece no estabelecimento. 
-O estabelecimento nao possui um site proprio, por isso pensamos que seria bom cria-lo a fim de manter o negocio em amis lugares da web.
+O presente projeto tem como objetivo o desenvolvimento de um site institucional para o estabelecimento Açaí do Ed, localizado na QNL 5/7. A proposta visa ampliar a presença digital do negócio, oferecendo um ambiente virtual no qual os clientes possam se manter informados sobre novidades, promoções e atualizações do estabelecimento.
 
-No site usamos cores ja presentes no negocio e que remetem a Açai e o frescor que ele traz. Foram escolhidos tons de roxo, amarelo e verde para trazer esse sentimento. Alem disso, essas cores sao complementares, que garante um bom constraste e combinacao.
-A fonte escolhida foi a Arial, por ser uma fonte simples e padrão, facilitando a leitura.
-os botoes estao dispostos de maneira a facilitar a visualizacao de quem acessa o site, sem criar duvidas do que ou no que clicar.
-Essas praticas ajudam a melhorar a experiencia do usuario ao usar o site.
+A escolha do Açaí do Ed se deu pelo fato de o estabelecimento ainda não possuir um site próprio. Assim, o projeto busca suprir essa necessidade, contribuindo para o fortalecimento da marca e para o aumento de sua visibilidade na web.
+
+No desenvolvimento do site, foram utilizadas cores já presentes na identidade visual do estabelecimento, que remetem ao açaí e à sensação de frescor associada ao produto. As tonalidades de roxo, amarelo e verde foram selecionadas por transmitirem essa ideia, além de serem cores complementares, o que garante um bom contraste e uma combinação visualmente agradável.
+
+A tipografia escolhida foi a Arial, por se tratar de uma fonte simples, legível e amplamente utilizada em interfaces digitais, favorecendo a leitura e a acessibilidade do conteúdo.
+
+Os botões e elementos interativos foram dispostos de maneira a otimizar a navegação e a experiência do usuário, evitando ambiguidades quanto às ações disponíveis no site.
+
+Essas escolhas de design e usabilidade foram orientadas pelos princípios de experiência do usuário (UX) e design de interface (UI), buscando tornar o site intuitivo, funcional e esteticamente coerente com a identidade visual do Açaí do Ed.
 
