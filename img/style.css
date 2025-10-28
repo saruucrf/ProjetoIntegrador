@@ -65,15 +65,6 @@ header nav ul {
     gap: 1rem;
 }
 
-.botao-normal{
-    background-color: var(--roxo);
-    color: var(--branco);
-    padding: 0.3rem 1rem;
-    text-decoration: none;
-    border-radius: 0.25rem;
-    font-weight: bold;
-}
-
 .botao-zap {
     background-color: var(--verde);
     color: var(--branco);
@@ -241,70 +232,6 @@ a:focus {
     outline: 3px solid var(--amarelo);
     outline-offset: 4px;
 }
-
-.carousel {
-  position: relative;
-  width: 90%;
-  max-width: 800px;
-  margin: 3rem auto;
-  overflow: hidden;
-  border-radius: 1rem;
-  background-color: var(--amarelo);
-  text-align: center;
-}
-
-.carousel h2 {
-  color: var(--roxo);
-  margin-bottom: 1rem;
-}
-
-.carousel-container {
-  width: 100%;
-  overflow: hidden;
-}
-
-.carousel-slide {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.carousel-slide figure {
-  width: 100%;
-  flex-shrink: 0;
-}
-
-.carousel-slide img {
-  width: 100%;
-  border-radius: 1rem;
-}
-
-.prev,
-.next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: var(--roxo);
-  color: var(--branco);
-  border: none;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  border-radius: 50%;
-  font-size: 1.5rem;
-  transition: background-color 0.3s;
-}
-
-.prev:hover,
-.next:hover {
-  background-color: var(--verde);
-}
-
-.prev {
-  left: 10px;
-}
-.next {
-  right: 10px;
-}
-
 
 
 @media (min-width: 600px) {

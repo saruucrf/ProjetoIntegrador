@@ -13,30 +13,15 @@
         <h1>Bem-Vindo ao Açai do Ed!</h1>
         <nav>
             <ul class="links-nav">
-                <li><a href="#" class="botao-normal">SOBRE</a></li>
-                <li><a href="#" class="botao-normal">PEÇA NO DELIVERY!</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Peça no delivery!</a></li>
                 <li><a href="Whatsapp" class="botao-zap">WHATSAPP</a></li>
             </ul>   
         </nav>
     </header>
 
  
-    <main> 
-    <section class="carousel">
-        <h2>Destaques do Açai do Ed</h2>
-
-        <section class="carousel-container">
-        <section class="carousel-slide">
-            <figure><img src="img/TamanhoAcai.jpg" alt="Copos de Açaí de vários tamanhos"></figure>
-            <figure><img src="img/AcompanhamentoAcai.jpg" alt="Acompanhamentos do Açaí"></figure>
-            <figure><img src="img/PromocoesAcai.jpg" alt="Promoções de Açaí"></figure>
-        </section>
-    </section>
-
-    <button class="prev" aria-label="Imagem anterior">&#10094;</button>
-    <button class="next" aria-label="Próxima imagem">&#10095;</button>
-    </section>
-     
+    <main>      
         <section class="servicos">
             <h2>Conheça nosso cardápio!</h2>
             <article class="grade-servicos">
@@ -88,27 +73,5 @@
             </ul>
         </nav>
     </footer>
-
-    <script>
-        const slide = document.querySelector('.carousel-slide');
-        const figures = document.querySelectorAll('.carousel-slide figure');
-        const prev = document.querySelector('.prev');
-        const next = document.querySelector('.next');
-
-    let index = 0;
-
-    function mostrarSlide(i) {
-        if (i >= figures.length) index = 0;
-        else if (i < 0) index = figures.length - 1;
-        else index = i;
-        slide.style.transform = `translateX(${-index * 100}%)`;
-  }
-
-    next.addEventListener('click', () => mostrarSlide(index + 1));
-    prev.addEventListener('click', () => mostrarSlide(index - 1));
-
-    setInterval(() => mostrarSlide(index + 1), 4000);
-</script>
-
 </body>
 </html>
