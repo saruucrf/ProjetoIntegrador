@@ -242,6 +242,75 @@ a:focus {
     outline-offset: 4px;
 }
 
+/* ====== SEÇÃO DE SAUDAÇÃO ====== */
+.saudacao {
+  background-color: var(--amarelo);
+  color: var(--roxo);
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  max-width: 700px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.saudacao h2 {
+  margin-bottom: 1rem;
+  color: var(--roxo);
+}
+
+#nomeUsuario {
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--roxo-claro);
+  font-size: 1rem;
+  width: 70%;
+  max-width: 400px;
+}
+
+#mensagem {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: var(--roxo);
+}
+
+
+/* ====== SEÇÃO DE INTERAÇÃO (BOTÃO) ====== */
+.interacao {
+  background-color: var(--roxo);
+  color: var(--branco);
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  max-width: 700px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.interacao h2 {
+  margin-bottom: 1rem;
+  color: var(--amarelo);
+}
+
+#botaoInfo {
+  background-color: var(--verde);
+  color: var(--branco);
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#botaoInfo:hover,
+#botaoInfo:focus {
+  background-color: var(--verde-claro);
+  transform: scale(1.05);
+}
+
 .carousel {
   position: relative;
   width: 90%;
@@ -251,11 +320,12 @@ a:focus {
   border-radius: 1rem;
   background-color: var(--amarelo);
   text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 .carousel h2 {
   color: var(--roxo);
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .carousel-container {
@@ -276,6 +346,7 @@ a:focus {
 .carousel-slide img {
   width: 100%;
   border-radius: 1rem;
+  transition: transform 0.3s, border 0.3s;
 }
 
 .prev,

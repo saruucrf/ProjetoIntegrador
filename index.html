@@ -1,114 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Açai do Ed</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Açai do Ed</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <a href="#conteudo" class="pular-principal">Pular para o conteúdo principal</a>
-    <header>
-        <img class="Logo" src="img/LogoEd.jpg" alt="Logo do estabelecimento Açai do Ed">
-        <h1>Bem-Vindo ao Açai do Ed!</h1>
-        <nav>
-            <ul class="links-nav">
-                <li><a href="#" class="botao-normal">SOBRE</a></li>
-                <li><a href="#" class="botao-normal">PEÇA NO DELIVERY!</a></li>
-                <li><a href="Whatsapp" class="botao-zap">WHATSAPP</a></li>
-            </ul>   
-        </nav>
-    </header>
+  <a href="#conteudo" class="pular-principal">Pular para o conteúdo principal</a>
 
- 
-    <main> 
+  <header>
+    <img class="Logo" src="img/LogoEd.jpg" alt="Logo do estabelecimento Açai do Ed">
+    <h1 id="titulo-principal">Bem-Vindo ao Açai do Ed!</h1>
+    <nav>
+      <ul class="links-nav">
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Peça no delivery!</a></li>
+        <li><a href="Whatsapp" class="botao-zap">WHATSAPP</a></li>
+      </ul>   
+    </nav>
+  </header>
+
+  <main id="conteudo">  
+
+    <section class="saudacao">
+      <h2>Digite seu nome e receba uma saudação!</h2>
+      <input type="text" id="nomeUsuario" placeholder="Digite seu nome">
+      <p id="mensagem"></p>
+    </section>
+
+    <section class="interacao">
+      <h2>Experimente interagir com o site!</h2>
+      <button id="botaoInfo">Saiba mais sobre o Açai do Ed</button>
+    </section>
+
     <section class="carousel">
-        <h2>Destaques do Açai do Ed</h2>
+      <h2>Destaques do Açai do Ed</h2>
 
-        <section class="carousel-container">
+      <section class="carousel-container">
         <section class="carousel-slide">
-            <figure><img src="img/TamanhoAcai.jpg" alt="Copos de Açaí de vários tamanhos"></figure>
-            <figure><img src="img/AcompanhamentoAcai.jpg" alt="Acompanhamentos do Açaí"></figure>
-            <figure><img src="img/PromocoesAcai.jpg" alt="Promoções de Açaí"></figure>
+          <figure><img src="img/TamanhoAcai.jpg" alt="Copos de Açaí de vários tamanhos" id="fotoDestaque"></figure>
+          <figure><img src="img/AcompanhamentoAcai.jpg" alt="Acompanhamentos do Açaí"></figure>
+          <figure><img src="img/PromocoesAcai.jpg" alt="Promoções de Açaí"></figure>
         </section>
+      </section>
+
+      <button class="prev" aria-label="Imagem anterior">&#10094;</button>
+      <button class="next" aria-label="Próxima imagem">&#10095;</button>
     </section>
 
-    <button class="prev" aria-label="Imagem anterior">&#10094;</button>
-    <button class="next" aria-label="Próxima imagem">&#10095;</button>
+    <section class="servicos">
+      <h2>Conheça nosso cardápio!</h2>
+      <article class="grade-servicos">
+        <h3>Tamanhos e preços:</h3><br>
+        <p><a href="precos"><img src="img/TamanhoAcai.jpg" alt="imagem de três copos de açai"></a></p>    
+      </article>
+      <article class="grade-servicos">
+        <h3>Acompanhamentos:</h3><br>
+        <p><a href="acompanhamentos"><img src="img/AcompanhamentoAcai.jpg" alt="imagem do topo de três copos de açai"></a></p>
+      </article>    
+      <article class="grade-servicos">
+        <h3>Promoções e combos:</h3><br>
+        <p><a href="promocao"><img src="img/PromocoesAcai.jpg" alt="imagem que apresenta as promoções de açai"></a></p>    
+      </article>
     </section>
-     
-        <section class="servicos">
-            <h2>Conheça nosso cardápio!</h2>
-            <article class="grade-servicos">
-                <h3>Tamanhos e preços:</h3></br>
-                <p><a href="precos"><img src="img/TamanhoAcai.jpg" alt="imagem de três copos de açai"></a></p>    
-            </article>
-            <article class="grade-servicos">
-                <h3>Acompanhamentos:</h3></br>
-                <p><a href="acompanhamentos"><img src="img/AcompanhamentoAcai.jpg" alt="imagem do topo de três copos de açai"></a></p>
-            </article>    
-            <article class="grade-servicos">
-                <h3>Promoções e combos:</h3></br>
-                <p><a href="promocao"><img src="img/PromocoesAcai.jpg" alt="imagem que apresenta as promoções de açai"></a></p>    
-            </article>
-        </section>
-        
-        <section class="datas">
-            <h2>Datas Especiais!</h2>
-            <article class="grade-datas">
-                <h3>Feliz Dia do Trabalhador!</h3></br>
-                <p><a href="trabalhador"><img src="img/DiaTrabalhador.jpg" alt="Imagem comemorando o Dia do Trabalhador"></a></p>
-            </article>
-            <article class="grade-datas">
-                <h3>Feliz Dia da Mulher!</h3></br>
-                <p><a href="mulher"><img src="img/DiaMulher.jpg" alt="Imagem comemorando o Dia da Mulher"></a></p>
-            </article>
-            <article class="grade-datas">
-                <h3>Feliz Dia das Crianças!</h3></br>
-                <p><a href="criancas"><img src="img/DiaCriancas.jpg" alt="Imagem comemorando o Dia das Crianças"></a></p>
-            </article>
-        </section>
+    
+    <section class="datas">
+      <h2>Datas Especiais!</h2>
+      <article class="grade-datas">
+        <h3>Feliz Dia do Trabalhador!</h3><br>
+        <p><a href="trabalhador"><img src="img/DiaTrabalhador.jpg" alt="Imagem comemorando o Dia do Trabalhador"></a></p>
+      </article>
+      <article class="grade-datas">
+        <h3>Feliz Dia da Mulher!</h3><br>
+        <p><a href="mulher"><img src="img/DiaMulher.jpg" alt="Imagem comemorando o Dia da Mulher"></a></p>
+      </article>
+      <article class="grade-datas">
+        <h3>Feliz Dia das Crianças!</h3><br>
+        <p><a href="criancas"><img src="img/DiaCriancas.jpg" alt="Imagem comemorando o Dia das Crianças"></a></p>
+      </article>
+    </section>
 
-        <aside class="Unidades">
-            <h2>Visite nossa unidade!</h2>
-            <img src="img/UnidadeAcai.jpg" alt="Imagem com um açai escrito 'O melhor Açai da Região'"></a>
-            <p>📍EQNL 5/7 - Taguatinga, Brasília - DF
-            Seg a Sáb 13 hr às 20 hr / Dom e Fer 13 hr às 20 hr</p></br>
-            <a href="insta" class="botao-insta">INSTAGRAM</a>
-        </aside>
-    </main>
+    <aside class="Unidades">
+      <h2>Visite nossa unidade!</h2>
+      <img src="img/UnidadeAcai.jpg" alt="Imagem com um açai escrito 'O melhor Açai da Região'">
+      <p>📍EQNL 5/7 - Taguatinga, Brasília - DF<br>
+      Seg a Sáb 13h às 20h / Dom e Fer 13h às 20h</p><br>
+      <a href="insta" class="botao-insta">INSTAGRAM</a>
+    </aside>
+  </main>
 
-    <footer>
-        <p>&copy; 2025 Açai do Ed. Todos os direitos reservados.</p>
-        <nav>
-            <ul class="links-rodape">
-                <li><a href="#">Privacidade</a></li>
-                <li><a href="#">Acessibilidade</a></li>
-                <li><a href="#">Mapa do site</a></li>
-            </ul>
-        </nav>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Açai do Ed. Todos os direitos reservados.</p>
+    <nav>
+      <ul class="links-rodape">
+        <li><a href="#">Privacidade</a></li>
+        <li><a href="#">Acessibilidade</a></li>
+        <li><a href="#">Mapa do site</a></li>
+      </ul>
+    </nav>
+  </footer>
 
-    <script>
-        const slide = document.querySelector('.carousel-slide');
-        const figures = document.querySelectorAll('.carousel-slide figure');
-        const prev = document.querySelector('.prev');
-        const next = document.querySelector('.next');
+  <script>
+    const botao = document.querySelector("#botaoInfo");
+    const titulo = document.querySelector("#titulo-principal");
+    botao.onclick = function() {
+      titulo.innerHTML = "Açai do... esqueci :p";
+      titulo.style.color = "#23bb6b";
+      document.body.style.backgroundColor = "#f2bb13";
+    };
 
+    const campo = document.querySelector("#nomeUsuario");
+    const mensagem = document.querySelector("#mensagem");
+    campo.oninput = function() {
+      mensagem.innerHTML = "Olá, " + campo.value + "! 🍧 Veja nossas ofertas de hoje!";
+    };
+
+    const imagem = document.querySelector("#fotoDestaque");
+    imagem.onmouseover = function() {
+      imagem.style.border = "4px solid var(--verde)";
+      imagem.style.transform = "scale(1.05)";
+      imagem.style.transition = "0.3s";
+    };
+    imagem.onmouseout = function() {
+      imagem.style.border = "none";
+      imagem.style.transform = "scale(1)";
+    };
+
+    const slide = document.querySelector('.carousel-slide');
+    const figuras = document.querySelectorAll('.carousel-slide figure');
+    const prev = document.querySelector('.prev');
+    const next = document.querySelector('.next');
     let index = 0;
 
     function mostrarSlide(i) {
-        if (i >= figures.length) index = 0;
-        else if (i < 0) index = figures.length - 1;
-        else index = i;
-        slide.style.transform = `translateX(${-index * 100}%)`;
-  }
+      if (i >= figuras.length) index = 0;
+      else if (i < 0) index = figuras.length - 1;
+      else index = i;
+      slide.style.transform = `translateX(${-index * 100}%)`;
+    }
 
     next.addEventListener('click', () => mostrarSlide(index + 1));
     prev.addEventListener('click', () => mostrarSlide(index - 1));
-
     setInterval(() => mostrarSlide(index + 1), 4000);
-</script>
-
+  </script>
 </body>
 </html>
