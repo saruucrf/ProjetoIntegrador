@@ -74,7 +74,7 @@ header nav ul {
     font-weight: bold;
 }
 
-.botao-zap {
+.botao-insta {
     background-color: var(--verde);
     color: var(--branco);
     padding: 0.3rem 1rem;
@@ -83,8 +83,8 @@ header nav ul {
     font-weight: bold;
 }
 
-.botao-zap:hover,
-.botao-zap:focus{
+.botao-insta:hover,
+.botao-insta:focus{
     background-color: var(--verde-claro);
     color: var(--branco);
 
@@ -197,20 +197,6 @@ header nav a:hover {
     margin-bottom: 1rem;
 } 
 
-.botao-insta {
-    background-color: var(--roxo);
-    color: var(--branco);
-    padding: 0.3rem 1rem;
-    text-decoration: none;
-    border-radius: 0.25rem;
-    font-weight: bold;
-}
-.botao-insta:focus,
-.botao-insta:hover {
-    background-color: var(--verde);
-    text-decoration: underline;
-    color: var(--branco);
-}
 
 footer {
     background-color: var(--verde);
@@ -378,19 +364,30 @@ a:focus {
 
 
 
-@media (min-width: 600px) {
-    .servicos,
-    .datas {
-        grid-template-columns: repeat(2, 1fr);
-    }
+/* Mobile first - estilos base para mobile */
+.container {
+  width: 100%;
+  padding: 1rem;
 }
 
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+/* Desktop */
 @media (min-width: 1024px) {
-    .servicos,
-    .datas {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .welcome {
-        padding: 6rem 2rem;
-    }
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* Desktop grande */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
 }
