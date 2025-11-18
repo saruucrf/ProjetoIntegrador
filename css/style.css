@@ -262,7 +262,6 @@ a:focus {
 }
 
 
-/* ====== SEÇÃO DE INTERAÇÃO (BOTÃO) ====== */
 .interacao {
   background-color: var(--roxo);
   color: var(--branco);
@@ -364,30 +363,30 @@ a:focus {
 
 
 
-/* Mobile first - estilos base para mobile */
-.container {
+.servicos,
+.datas {
   width: 100%;
   padding: 1rem;
 }
 
-/* Tablet */
 @media (min-width: 768px) {
-  .container {
+  .servicos,
+  .datas {
     max-width: 720px;
     margin: 0 auto;
   }
 }
 
-/* Desktop */
 @media (min-width: 1024px) {
-  .container {
+  .servicos,
+  .datas {
     max-width: 960px;
   }
 }
 
-/* Desktop grande */
 @media (min-width: 1280px) {
-  .container {
+  .servicos,
+  .datas {
     max-width: 1200px;
   }
 }
