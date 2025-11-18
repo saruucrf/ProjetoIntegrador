@@ -16,4 +16,6 @@ Os botões e elementos interativos foram dispostos de maneira a otimizar a naveg
 
 Essas escolhas de design e usabilidade foram orientadas pelos princípios de experiência do usuário (UX) e design de interface (UI), buscando tornar o site intuitivo, funcional e esteticamente coerente com a identidade visual do Açaí do Ed.
 
+A implementacao do JavaScript foi importante pois trouxe novas opcoes para o site, como a adicao de carrosel de fotos e poder mudar sua estrutura facilmente com um clique.
+
 https://www.figma.com/design/w05ybqWh02kNbYIrB8GP1A/Sem-t%C3%ADtulo?node-id=2-150&t=6Onq0facOAIWlMWp-1
