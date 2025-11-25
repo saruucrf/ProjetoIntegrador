@@ -24,4 +24,6 @@ PARTE 2: Melhoras e organizacao no codigo do site, implementacao do JavaScript e
 
 PARTE 3: organizacao das pastas do projeto e testes.
 
+Acesso ao site: 
+
 https://www.figma.com/design/w05ybqWh02kNbYIrB8GP1A/Sem-t%C3%ADtulo?node-id=2-150&t=6Onq0facOAIWlMWp-1
