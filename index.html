@@ -24,7 +24,7 @@
   <main id="conteudo">  
 
     <section class="saudacao">
-      <h2>Digite seu nome e receba uma saudação!</h2>
+      <h2>Digite seu nome e libere uma promoção!</h2>
       <input type="text" id="nomeUsuario" placeholder="Digite seu nome">
       <p id="mensagem"></p>
     </section>
@@ -39,9 +39,9 @@
 
       <section class="carousel-container">
         <section class="carousel-slide">
-          <figure><img src="img/TamanhoAcai.jpg" alt="Copos de Açaí de vários tamanhos" id="fotoDestaque"></figure>
-          <figure><img src="img/AcompanhamentoAcai.jpg" alt="Acompanhamentos do Açaí"></figure>
-          <figure><img src="img/PromocoesAcai.jpg" alt="Promoções de Açaí"></figure>
+          <figure><img src="img/produtos/TamanhoAcai.jpg" alt="Copos de Açaí de vários tamanhos" id="fotoDestaque"></figure>
+          <figure><img src="img/produtos/AcompanhamentoAcai.jpg" alt="Acompanhamentos do Açaí"></figure>
+          <figure><img src="img/produtos/PromocoesAcai.jpg" alt="Promoções de Açaí"></figure>
         </section>
       </section>
 
@@ -53,15 +53,15 @@
       <h2>Conheça nosso cardápio!</h2>
       <article class="grade-servicos">
         <h3>Tamanhos e preços:</h3><br>
-        <p><a href="precos"><img src="img/TamanhoAcai.jpg" alt="imagem de três copos de açai"></a></p>    
+        <p><a href="precos"><img src="img/produtos/TamanhoAcai.jpg" alt="imagem de três copos de açai"></a></p>    
       </article>
       <article class="grade-servicos">
         <h3>Acompanhamentos:</h3><br>
-        <p><a href="acompanhamentos"><img src="img/AcompanhamentoAcai.jpg" alt="imagem do topo de três copos de açai"></a></p>
+        <p><a href="acompanhamentos"><img src="img/produtos/AcompanhamentoAcai.jpg" alt="imagem do topo de três copos de açai"></a></p>
       </article>    
       <article class="grade-servicos">
         <h3>Promoções e combos:</h3><br>
-        <p><a href="promocao"><img src="img/PromocoesAcai.jpg" alt="imagem que apresenta as promoções de açai"></a></p>    
+        <p><a href="promocao"><img src="img/produtos/PromocoesAcai.jpg" alt="imagem que apresenta as promoções de açai"></a></p>    
       </article>
     </section>
     
@@ -69,21 +69,21 @@
       <h2>Datas Especiais!</h2>
       <article class="grade-datas">
         <h3>Feliz Dia do Trabalhador!</h3><br>
-        <p><a href="trabalhador"><img src="img/DiaTrabalhador.jpg" alt="Imagem comemorando o Dia do Trabalhador"></a></p>
+        <p><a href="trabalhador"><img src="img/icones/DiaTrabalhador.jpg" alt="Imagem comemorando o Dia do Trabalhador"></a></p>
       </article>
       <article class="grade-datas">
         <h3>Feliz Dia da Mulher!</h3><br>
-        <p><a href="mulher"><img src="img/DiaMulher.jpg" alt="Imagem comemorando o Dia da Mulher"></a></p>
+        <p><a href="mulher"><img src="img/icones/DiaMulher.jpg" alt="Imagem comemorando o Dia da Mulher"></a></p>
       </article>
       <article class="grade-datas">
         <h3>Feliz Dia das Crianças!</h3><br>
-        <p><a href="criancas"><img src="img/DiaCriancas.jpg" alt="Imagem comemorando o Dia das Crianças"></a></p>
+        <p><a href="criancas"><img src="img/icones/DiaCriancas.jpg" alt="Imagem comemorando o Dia das Crianças"></a></p>
       </article>
     </section>
 
     <aside class="Unidades">
       <h2>Visite nossa unidade!</h2>
-      <img src="img/UnidadeAcai.jpg" alt="Imagem com um açai escrito 'O melhor Açai da Região'">
+      <img src="img/produtos/UnidadeAcai.jpg" alt="Imagem com um açai escrito 'O melhor Açai da Região'">
       <p>📍EQNL 5/7 - Taguatinga, Brasília - DF<br>
         <section class="localizacao">
   <h2>Onde Estamos</h2>
@@ -119,13 +119,13 @@
     botao.onclick = function() {
       titulo.innerHTML = "Açai do... esqueci :p";
       titulo.style.color = "#23bb6b";
-      document.body.style.backgroundColor = "#f2bb13";
+      document.body.style.backgroundColor = "#442f73";
     };
 
     const campo = document.querySelector("#nomeUsuario");
     const mensagem = document.querySelector("#mensagem");
     campo.oninput = function() {
-      mensagem.innerHTML = "Olá, " + campo.value + "! 🍧 Veja nossas ofertas de hoje!";
+      mensagem.innerHTML = "Olá, " + campo.value + "! 🍧 Você recebeu 5% de desconto na nossa unidade!";
     };
 
     const imagem = document.querySelector("#fotoDestaque");
