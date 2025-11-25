@@ -26,4 +26,22 @@ PARTE 3: organizacao das pastas do projeto e testes.
 
 Acesso ao site: https://saruucrf.github.io/ProjetoIntegrador/
 
+Testes Realizados: 
+Navegadores: Chrome, Brave, Edge.
+Dispositivos/Resoluções: Desktop Full HD, Desktop HD, Ipad PRO, Iphone 12.
+Limitações: dispositivos pequenos.
+
+Reflexão Samuel: Uma das principais habilidades desenvolvidas foi com o GIT, por estar sempre em contato com a plataforma, além dos aprendizados em HTML e CSS, que foram necessários para o desenvolvimento do site. Um dos maiores desafios foi com o JavaScript, por ser algo mais complexo e não tão intuitivo como o HTML e CSS. O domínio do GIT foi o grande destaque.
+Trabalhar em dupla foi um pouco complicado, principalmente por causa da dificuldade de marcar reuniões, mas cada um fez o necessario para o processo do site. 
+O maior desafio foi o manejo do tempo de entrega. Uma coisa que eu faria diferente seria adiar mais o desenvolvimento de algumas partes.
+
+Reflexão Dupla: O projeto melhorou muito desde a parte 1, com a implementação de um CSS mais bonito, com a adição do JS e melhor organização das pastas. 
+O resultado ficou a par do que se espera no início. 
+O site, com mais algumas melhorias, poderia sim agregar valor ao negócio,  por ser mais um lugar de divulgação do negócio. 
+Para o dono, diriamos que o site seria mais uma forma de divulgação do negócio, importante para espalhar o estabelecimento.
+
+Próximos Passos e Melhorias Futuras:
+Seria bom aprender a usar frameworks para melhorar a iteração do cliente com o site, além de comprimir alguns códigos que ficariam muito longos
+Outra área a se aprofundar seria estudar animações melhores e mais avançadas em CSS, que deixaria o site mais bonito. Também poderia haver a implementação de APIs.
+
 https://www.figma.com/design/w05ybqWh02kNbYIrB8GP1A/Sem-t%C3%ADtulo?node-id=2-150&t=6Onq0facOAIWlMWp-1
